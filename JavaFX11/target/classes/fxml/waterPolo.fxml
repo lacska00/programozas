@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="489.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.waterPoloController">
+    <children>
+        <ButtonBar layoutX="76.0" layoutY="14.0" prefHeight="40.0" prefWidth="540.0">
+            <buttons>
+                <Button mnemonicParsing="false" text="Főoldal" />
+                <Button mnemonicParsing="false" text="Labdarúgás" />
+                <Button mnemonicParsing="false" text="Kosárlabda" />
+                <Button mnemonicParsing="false" text="Kézilabda" />
+                <Button mnemonicParsing="false" text="Jégkorong" />
+                <Button mnemonicParsing="false" text="Vizilabda" />
+            </buttons>
+        </ButtonBar>
+    </children>
+</AnchorPane>

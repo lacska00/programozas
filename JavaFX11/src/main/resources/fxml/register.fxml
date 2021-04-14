@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="376.0" prefWidth="493.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.registerController">
+    <children>
+        <Label alignment="CENTER" layoutX="206.0" layoutY="27.0" prefHeight="47.0" prefWidth="188.0" text="Regisztráció">
+            <font>
+                <Font name="System Bold Italic" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="133.0" layoutY="103.0" text="Felhasználó név:" />
+        <Label layoutX="164.0" layoutY="148.0" text="Teljes név:" />
+        <Label layoutX="185.0" layoutY="192.0" text="Jelszó:" />
+        <Button fx:id="regButton" layoutX="301.0" layoutY="314.0" mnemonicParsing="false" onAction="#registerButtonAction" text="Regisztrálás" />
+        <TextField fx:id="accountName" layoutX="266.0" layoutY="99.0" promptText="Felhasználó név" />
+        <TextField fx:id="fullName" layoutX="266.0" layoutY="144.0" promptText="Teljes név" />
+        <PasswordField fx:id="passWord" layoutX="266.0" layoutY="188.0" promptText="Jelszó" />
+      <PasswordField fx:id="passWordVerify" layoutX="266.0" layoutY="232.0" promptText="Jelszó megerősítése" />
+      <Label layoutX="111.0" layoutY="236.0" text="Jelszó megerősítése:" />
+      <Label fx:id="message" layoutX="287.0" layoutY="277.0" text="Hibaüzenet" />
+      <Button layoutX="70.0" layoutY="314.0" mnemonicParsing="false" onAction="#backToLogin" text="Vissza" />
+    </children>
+</AnchorPane>
